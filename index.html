@@ -4,17 +4,54 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css\bootstrap.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <title>ABC Cares Foundation</title>
   </head>
   <body>
-   <div id="page-main">
+   <div id="page-main container">
     <div id="navbar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">ABC Cares</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     </div>
-    <div id="splashpage">
-      <h1>ABC Cares</h1>
-      <h3>A 501c3 dedicated to giving back.</h3>
+    <div class="row">
+      <div id="splashpage" class="col-lg-12">
+        <div class="contentText">
+          <h1>ABC Cares</h1>
+          <hr>
+          <h3>A 501c3 dedicated to giving back.</h3>
+       </div>
+      </div>
     </div>
-    <div id="about">
+    <div id="about" class="siteSection">
       <h2 class="page-heading">About ABC Cares</h2>
       <p>ABC members have for years given back to their communities in enormous ways.
          Whether through the annual ABC Handlebars for the Holidays event, golf and fishing tournaments (which benefited local charities),
@@ -23,7 +60,7 @@
          So the ABC Cares Foundation was formed. And since being granted it’s IRS 501c(3) status in late 2010,
          the ABC Cares Foundation has made a big impact.</p>
     </div>
-    <div id="who-helped">
+    <div id="who-helped" class="siteSection">
       <h2 class="page-heading">Who We've Helped</h2>
       <p>In less than seven years, ABC Cares has donated more than $60,000 to construction professionals and their families, including:</p>
       <ul>
@@ -35,7 +72,7 @@
      </ul>
      <p>And many others.</p>
     </div>
-    <div id="donate">
+    <div id="donate" class="siteSection">
       <h2 class="page-heading">Donate Now</h2>
       <p>Here’s where you can help. Please spread the word about the ABC Cares Foundation and think of the Foundation when you hear of a
         story of an industry professional and/or their family in need. And would you please consider including the ABC Cares Foundation,
